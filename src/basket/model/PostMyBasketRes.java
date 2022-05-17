@@ -1,4 +1,4 @@
-package com.example.demo.src.user.model;
+package com.example.demo.src.basket.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PostUserRes {
-    private String jwt;
-    private int userId;
+public class PostMyBasketRes {
+    private int basketId;
 }

@@ -1,4 +1,4 @@
-package com.example.demo.src.user.model;
+package com.example.demo.src.wishList.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,7 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class PostUserRes {
-    private String jwt;
+public class PostWishListReq {
     private int userId;
+    private int accId;
+    private String accName;
 }

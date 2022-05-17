@@ -9,9 +9,19 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class GetUserRes {
-    private int userIdx;
-    private String userName;
-    private String ID;
+    //    private int userIdx;
+//    private String ID;
+//    private String userName;
+//    private String password;
+//    private String email;
+    private int userId;
     private String email;
     private String password;
+    private String userPhone;
+    private String nickName;
+    private int point;
+    private int userState;
+
+
 }
+
